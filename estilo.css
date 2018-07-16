@@ -1,0 +1,136 @@
+body{
+    margin: 0%;
+    height: 100vh;
+    width: 100wh;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px black;
+    align-content: flex-start;
+    padding: 10px;
+}
+
+.photoshoot{
+    width: 350px;
+    height: 350px;
+}
+
+h1{
+    font-family: 'The Breakdown';
+    font-size: 40pt;
+    padding: 15px;
+    justify-content: center;
+    display: flex;
+}
+
+h2,p{
+    font-family: 'Indie Flower', cursive;
+    display: flex;
+    justify-content: center;
+}
+
+.menu1{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    font-family: 'The Breakdown';
+    font-size: 15pt;
+}
+
+a:link{ 
+    text-decoration:none; 
+} 
+
+#perfil{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+#quem{
+    display: flex;
+    flex-direction: column;
+}
+
+#lorem{
+    width: 350px;
+    margin: 10px;
+
+}
+
+.galeria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 15px;
+}
+
+#perfil1{
+display: flex;
+justify-content: center;
+}
+
+#perfil2{
+    display: flex;
+    justify-content: center;
+padding: 20px;
+}
+
+.galeria p{
+    display: flex;
+    position: relative;
+}
+
+.slideshow{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#background{
+    background-image: url('background.png');
+    height: 100vh;
+    width: 10wh;
+}
+
+#contatinho{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+}
+
+button{
+    background-color: darkgrey;
+}
+
+@font-face {
+    font-family: 'The Breakdown';
+    src: url('fonts/the\ breakdown.ttf');
+}
+
+@media (min-width: 1000px) {
+    .galeria{
+        display: flex;
+        height: 400px;
+        width: 300px;
+    }
+#galeriaimagens{
+    display: flex;
+    justify-content: space-evenly
+}
+
+    }
+
+}
